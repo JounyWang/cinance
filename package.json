@@ -1,17 +1,17 @@
 {
-  "name": "@jounywang/binance",
+  "name": "@jounywang/cinance",
   "version": "1.0.2",
   "description": "",
   "type": "module",
-  "main": "coin_scan_binance.js",
+  "main": "coin_scan_cinance.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jounywang/binance"
+    "url": "https://github.com/jounywang/cinance"
   },
-  "website": "https://github.com/jounywang/binance.git",
+  "website": "https://github.com/jounywang/cinance.git",
   "keywords": [
     "binance",
     "client",
@@ -20,14 +20,15 @@
   "author": "moncici007",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jounywang/binance/issues"
+    "url": "https://github.com/jounywang/cinance/issues"
   },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
   },
-  "homepage": "https://github.com/jounywang/binance#readme",
+  "homepage": "https://github.com/jounywang/cinance#readme",
   "dependencies": {
+    "@jounywang/binance": "1.0.2",
     "@moncici/date-time-processor": "^1.0.3",
     "@moncici/log": "^1.0.2",
     "@moncici/proxy": "^1.0.3",
